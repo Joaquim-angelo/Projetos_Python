@@ -2,7 +2,7 @@ from customtkinter import *
 
 app=CTk()
 app.geometry("400x350")
-app.resizable(height=True,width=True)
+app.resizable(height=False,width=False)
 
 Titulo=CTkLabel(app,text="IMC",font=("Times new roman",40)).pack(pady=10,padx=10)
 #Peso
